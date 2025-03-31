@@ -1,0 +1,36 @@
+{
+    "name": "Unity.Services.RemoteConfig.Authoring.Editor",
+    "rootNamespace": "Unity.Services.RemoteConfig.Authoring.Editor",
+    "references": [
+        "Unity.Services.Core",
+        "Unity.Services.Core.Editor",
+        "Unity.Services.Core.Internal",
+        "Unity.Services.DeploymentApi",
+        "Unity.RemoteConfig.Editor",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner",
+        "Unity.Services.RemoteConfig.Editor.Authoring.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_2021_3_OR_NEWER",
+        "DEPLOYMENT_API_AVAILABLE_V1_0"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.deployment.api",
+            "expression": "[1.0.0,1.3.0-exp.1)",
+            "define": "DEPLOYMENT_API_AVAILABLE_V1_0"
+        }
+    ],
+    "noEngineReferences": false
+}

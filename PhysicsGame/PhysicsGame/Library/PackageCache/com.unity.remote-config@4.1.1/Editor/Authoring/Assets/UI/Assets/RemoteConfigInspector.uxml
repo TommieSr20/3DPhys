@@ -1,0 +1,6 @@
+<ui:UXML
+        xmlns:ui="UnityEngine.UIElements"
+        xmlns="UnityEngine.UIElements"
+        editor-extension-mode="True">
+    <ui:TextField name="config-body" multiline="true" readonly="true" />
+</ui:UXML>

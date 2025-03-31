@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Services.Economy.Editor",
+    "rootNamespace": "Unity.Services.Economy.Editor",
+    "references": [
+        "Unity.Services.Core.Editor",
+        "Unity.Services.Core.Internal"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
